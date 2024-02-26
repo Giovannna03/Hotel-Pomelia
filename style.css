@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.sfondo{
+    min-height: 96vh;
+    background: url('hotel-green.jpg') no-repeat;
+    background-size: cover ;
+    background-position: center; 
+
+}
+#title{
+    width: 15%;
+}
+#logo{
+    width: 6%;
+}
+
+nav{
+    background-color: rgba(101, 164, 167, 0.61);
+    backdrop-filter: blur(6px);
+    
+}
+.eco{
+    
+    text-align: center;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 700;
+    color: rgb(21, 73, 21);
+    
+    backdrop-filter: blur(3px);
+    flex-wrap: wrap;
+    font-size: 60px;
+    margin: 0 auto;
+    
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.288) 77%, rgba(255, 255, 255, 0.178) 91%, rgba(255, 255, 255, 0.021) 100%);
+    
+}
+
+.container{
+    min-height: 78vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+#icon{
+    margin-top: 2.3rem;
+    font-size: 58px;
+    color: rgb(26, 27, 26);
+    border-color:rgb(7, 70, 7);
+    border-style:dotted;
+    border-radius: 100px;
+    background: rgba(245, 245, 245, 0.171);
+    backdrop-filter: blur(2px);
+}
+.snd-container{
+    background-color: rgb(226, 238, 211);
+    
+}
+
+.cam{
+    height: 360px;
+    width: 28%;
+    margin-top: 4.4rem;
+    transform: rotate(-6deg);
+}
+
+.orto{
+    height: 400px;
+    width: 34%;
+    margin-top: 4.4rem;
+    transform: rotate(2deg);
+}
+#aa{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a{
+    margin-left: 0;
+    text-decoration: none;
+    color: blue;
+    
+}
+@media screen and (max-width:700px) {
+    h1{
+        font-size: 24px;
+    }
+    .eco{
+        font-size: 30px;
+    }
+    #icon{
+        font-size: 25px;
+    }
+    .st-section, .nd-section{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; 
+    }
+    h6{
+        font-size: 22px;
+        font-weight: 300;
+        
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .paragraph{
+        width: 100%;
+        
+        display: flex;
+        margin-left: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+    }
+    .cam{
+        width: 50%;
+        height: 260px;
+        
+    }
+    
+    .orto{
+        width: 50%;
+        height: 240px;
+        
+    }
+    .t{
+       
+        font-size: 20px;
+    }
+    .pi{
+        
+        font-size: 18px;
+    }
+    .stct, .snct{
+        display:flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        row-gap: 10px;
+    
+    }
+    
+}
+
+.st-section, .nd-section{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px; 
+}
+.snd-container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.st-sectionn, .nd-sectionn{
+    display:flex;
+    flex-direction: column;
+    
+    margin-top: 10px;
+    row-gap: 20px;
+    width: 50%;
+    
+}
+h6,h2{
+    
+    margin-left: 0;
+    font-family: 'Cinzel Decorative', serif; 
+}
+@media screen and (min-width:700px){
+    h1{
+        
+        font-size: 46px;
+       
+    }
+h6{
+    font-size: 32px;
+    font-weight: 300;
+}
+h2{
+    font-size: 42px;
+    font-weight: 700;
+}
+.paragraph{
+    width: 80%;
+    
+    display: flex;
+    margin-left: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+}
+.t{
+    
+    font-size: 28px;
+}
+.pi{
+    
+    font-size: 26px;
+}
+.stct, .snct{
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    column-gap: 24px;
+
+}
+
+}
+#ph{
+    margin-bottom: 32px;
+}
+.rd-container{
+    
+    background-color:rgb(194, 212, 159);
+    border-top:solid #424242 2px ;;
+    
+}
+.contacts{
+    display: grid;
+    row-gap: 16px;
+    
+ 
+ }
+
+h1{
+    font-family: 'Cinzel Decorative', serif;
+    padding: 40px;
+    padding-top: 80px;
+    text-align: center;
+    text-decoration: underline solid #424242 2px ;
+}
+
+.t{
+    font-family: 'Cinzel Decorative', serif;
+    
+}
+.pi{
+    font-family:'Courier New', Courier, monospace;
+   
+}
+.snct{
+    margin-bottom: 26px;
+}
